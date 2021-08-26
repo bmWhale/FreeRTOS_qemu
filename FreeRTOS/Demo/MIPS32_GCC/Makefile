@@ -12,7 +12,7 @@ TOP = $(PWD)
 
 # Are we compiling for the Rev 6 ISA
 ifeq ($(ARCH),mips32r6)
-CROSS_COMPILE ?= mips-img-elf
+CROSS_COMPILE ?= mips-img-linux-gnu
 else
 CROSS_COMPILE ?= mips-mti-elf
 endif

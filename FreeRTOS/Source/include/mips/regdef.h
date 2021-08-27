@@ -59,7 +59,8 @@
 #define ta1	$9	/* alias for $a5 */
 #define ta2	$10	/* alias for $a6 */
 #define ta3	$11	/* alias for $a7 */
-#else
+#elif !defined(__ASSEMBLER__)
+#define a4	$8
 #define t0	$8
 #define t1	$9
 #define t2	$10

@@ -3,7 +3,7 @@
 
 # Which mips revision are we targetting?
 # mips32r2-6
-ARCH?=mips32r5
+ARCH?=mips32r6
 
 # Big or Little Endian?
 BE?=0
